@@ -1,0 +1,89 @@
+body {
+  padding-top: 50px;
+  color: white;
+  background-color: blue;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 700px;
+  height: 230px;
+  margin-top: 20px;
+  border: 3px white solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.location {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 16px;
+  width: 300px;
+  padding: 0;
+  margin-right: 0;
+}
+
+.name {
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.weather {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.data {
+  display: flex;
+  font-size: 30px;
+}
+
+input {
+  width: 600px;
+  height: 25px;
+  border: 3px white solid;
+  border-radius: 10px;
+}
+
+button {
+  width: 150px;
+  height: 34px;
+}
+
+.control {
+  margin-left: 500px;
+  border: 2 px solid white;
+  display: flex;
+  gap: 10px;
+}
+
+.feel {
+  margin-top: 70px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.lightrain {
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+icon {
+  height: 30px;
+  width: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
